@@ -1,0 +1,22 @@
+h3{
+    font-size: 30px !important;
+}
+
+.btn-danger:hover{
+    background-color: black;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+canvas{
+    margin-top: 120px;
+    animation-name: hello;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hello{
+from{box-shadow: 10px 10px 10px rgb(181, 211, 13);}
+to{box-shadow: 10px 10px 10px rgb(228, 16, 157)}
+}
